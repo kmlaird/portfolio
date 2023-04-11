@@ -34,7 +34,7 @@ body {
 
 footer {
   margin: 50px auto 0;
-  padding: 30px;
+  padding-bottom: 30px;
 }
 i {
   padding: 0 20px;
@@ -75,4 +75,16 @@ i {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+@media (width < 576px) {
+  .directory {
+    flex-direction: column;
+  }
+  #home h2 {
+    text-align: center;
+  }
+  .nav-links {
+    padding-bottom: 30px;
+  }
 }
