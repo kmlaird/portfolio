@@ -1,0 +1,80 @@
+:root {
+  --first-color: #233142;
+  --second-color: #455d7a;
+  --third-color: #f95959;
+  --fourth-color: #e3e3e3;
+  --photo-border: 4px outset #e3e3e3;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: bold;
+  color: var(--fourth-color);
+}
+.bg-nav {
+  background-color: var(--fourth-color);
+}
+a {
+  color: var(--fourth-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--third-color);
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--first-color);
+}
+
+footer {
+  margin: 50px auto 0;
+  padding: 30px;
+}
+i {
+  padding: 0 20px;
+}
+/*Home page specific*/
+#home {
+  margin: 60px auto;
+}
+
+#home h2 {
+  padding-top: 20px;
+  padding-left: 210px;
+  font-size: 40px;
+}
+
+#home h1 {
+  text-align: center;
+  font-size: 96px;
+}
+#home p {
+  text-align: center;
+  font-size: 22px;
+  color: var(--third-color);
+}
+#home hr {
+  color: var(--fourth-color);
+  width: 60%;
+  align-content: center;
+  margin: auto;
+  height: 5px;
+}
+#home img {
+  height: 300px;
+  border: var(--photo-border);
+  border-radius: 30px;
+}
+.directory {
+  margin: 60px auto;
+}
+#nav-links {
+  padding-right: 150px;
+  padding-left: 100px;
+}
