@@ -79,17 +79,6 @@ main {
   align-items: center;
 }
 
-@media (width < 576px) {
-  .directory {
-    flex-direction: column;
-  }
-  #home h2 {
-    text-align: center;
-  }
-  .nav-links {
-    padding-bottom: 30px;
-  }
-}
 /*About page specific*/
 #about .row {
   margin: 30px auto;
@@ -130,4 +119,27 @@ main {
 }
 .about-paragraph i {
   margin-top: 100px;
+}
+
+/*Made phone friendly*/
+@media (width < 576px) {
+  .directory {
+    flex-direction: column;
+  }
+  #home h2 {
+    text-align: center;
+  }
+  .nav-links {
+    padding-bottom: 30px;
+  }
+  .qualifications {
+    flex-direction: column;
+    align-items: center;
+  }
+  .certs {
+    margin-bottom: 30px;
+  }
+  .skills {
+    padding: 0px 20px;
+  }
 }
