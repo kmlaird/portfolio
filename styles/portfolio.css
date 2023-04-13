@@ -105,7 +105,7 @@ main {
 .qualifications {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 .col {
   align-items: center;
@@ -120,8 +120,25 @@ main {
 .about-paragraph i {
   margin-top: 100px;
 }
+/*Contact section specific*/
+#contact {
+  margin: 60px auto;
+}
 
-/*Made phone friendly*/
+#contact h2 {
+  text-align: center;
+}
+#contact ul {
+  text-align: center;
+}
+#contact li {
+  list-style: none;
+  color: var(--fourth-color);
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+/*Made mobile friendly*/
 @media (width < 576px) {
   .directory {
     flex-direction: column;
