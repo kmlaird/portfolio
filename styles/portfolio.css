@@ -137,7 +137,27 @@ main {
   padding-top: 40px;
   font-size: 20px;
 }
+/*Project page specific*/
+#projects img {
+  max-width: 450px;
+  border-radius: 40px;
+}
 
+#projects .container {
+  margin: 60px auto;
+}
+
+#projects .col {
+  margin: 20px auto 30px;
+  padding: 10px;
+}
+#projects h4 {
+  line-height: 2;
+}
+#projects .col p {
+  color: var(--fourth-color);
+  font-size: 16px;
+}
 /*Made mobile friendly*/
 @media (width < 576px) {
   .directory {
