@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400"
+      rel="stylesheet"
+    />
+    <title>Dinosaurs rule!</title>
+    <link rel="stylesheet" href="dino_style.css" />
+  </head>
+  <body>
+    <h1>
+      Dinosaurs ruled the earth from <br />approximately 252 million to 66
+      million years ago
+    </h1>
+    <div class="overview">
+      <hr />
+      <h2>What are dinosaurs?</h2>
+      <hr />
+      <p>
+        Dinosaurs are a group of reptiles that dominated the land for over 140
+        million years. They are defined by their anatomy, with straight backs
+        perpendicular to their bodies. Their legs were also positioned under
+        their bodies (rather than on either side like lizards), which better
+        supported their weight.
+        <br />
+        <br />
+        Unlike what many movies portray, not all extinct reptiles from that time
+        period are dinosaurs. Non-dinosaur reptiles include pterosaurs (extinct
+        flying reptiles) and marine reptiles.
+        <br />
+        <br />
+        Main characteristics of dinosaurs include:
+      </p>
+      <ul>
+        <li>
+          They had an upright stance, with legs perpendicular to their body.
+        </li>
+        <li>They laid eggs.</li>
+        <li>They lived on land (with a few exceptions).</li>
+        <li>Their skull had a hole between the eye socket and nostril.</li>
+        <li>
+          Dinosaurs also had two holes behind the eye socket. Large, strong jaw
+          muscles went through the holes to attach directly to the top of the
+          skull.
+        </li>
+      </ul>
+      <button class="learnmore">
+        <a
+          href="https://www.nhm.ac.uk/discover/what-are-dinosaurs.html"
+          target="_blank"
+          >Explore more about dinosaurs</a
+        >
+      </button>
+      <br />
+      <div id="dino_pics">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/149/original/triceratops.jpeg?1679009787"
+          alt="triceratops skeleton"
+          class="dino"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/147/original/raptor_claw.jpg?1679009691"
+          atl="raptor claws"
+          class="dino"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/148/original/trex.jpg?1679009750"
+          alt="t-rex skull"
+          class="dino"
+        />
+      </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <h2>When Dinosaurs Lived</h2>
+    <hr />
+    <div id="colperiods">
+      <div class="periods">
+        <h3>
+          <span class="triassic">Triassic Period </span>(252 to 201 million
+          years ago)
+        </h3>
+        <p>
+          <strong>Climate: </strong>Relatively hot and dry, covered in large
+          deserts. Polar ice caps did not exist.<br /><br />
+          Well known <span class="triassic">Triassic</span> dinos:
+        </p>
+        <ul>
+          <li><em>Mussaurus</em></li>
+          <li><em>Pro-compsognathus</em></li>
+          <li><em>Coelophysis</em></li>
+        </ul>
+        <h3>
+          <span class="jurassic">Jurassic Period </span>(201 - 145 million years
+          ago)
+        </h3>
+        <p>
+          <strong>Climate: </strong>Temperatures fell slightly. Rainfall
+          increased as a result of large seas appearing between land masses as
+          pangea split in two. <br /><br />
+          Well known <span class="jurassic">Jurassic </span>dinos:
+        </p>
+        <ul>
+          <li><em>Diplodocus</em></li>
+          <li><em>Stegosaurus</em></li>
+          <li><em>Allosaurus</em></li>
+        </ul>
+        <h3>
+          <span class="cretaceous">Cretaceous Period </span>(145 to 66 million
+          years ago)
+        </h3>
+        <p>
+          <strong>Climate: </strong>Varied upon land masses as continents spread
+          to what we see today. <br /><br />Well known
+          <span class="cretaceous">Cretaceous </span>dinos:
+        </p>
+        <ul>
+          <li><em>Ankylosaurus</em></li>
+          <li><em>Corythosaurus</em></li>
+          <li><em>Tyrannosaurus</em></li>
+        </ul>
+      </div>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/146/original/geo_time_graphic.jpg?1679009572"
+        alt="time period visual"
+        class="periods"
+      />
+    </div>
+    <button class="learnmore">
+      <a
+        href="https://www.nhm.ac.uk/discover/when-did-dinosaurs-live.html"
+        target="_blank"
+        >Explore dinosaur time periods</a
+      >
+    </button>
+    <br /><br />
+    <hr />
+    <br /><br />
+    <button class="join"><strong>Join our dino meetup!</strong></button>
+    <br />
+    <br />
+    <footer>
+      <p>
+        This page was created by
+        <a href="https://www.shecodes.io/graduates/76830-kim-laird"
+          >Kim Laird</a
+        >
+      </p>
+    </footer>
+    <script>
+      function dinoGroup() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+
+        if (email.length < 5) {
+          alert("Hi " + name + ", we need your email to connect.");
+        } else {
+          alert("Thanks " + name + "! We'll be in touch soon.");
+        }
+      }
+
+      let joinButton = document.querySelector(".join");
+      joinButton.addEventListener("click", dinoGroup);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  color: rgb(222, 219, 219);
+  font-family: "Raleway", Sans-Serif;
+  max-width: 950px;
+  margin: 10px auto;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+#dino_pics {
+  display: flex;
+}
+img.dino {
+  float: left;
+  max-height: 400px;
+  border-radius: 5px;
+  max-width: 33.3%;
+  width: auto;
+  margin: 1%;
+}
+p {
+  line-height: 20px;
+  margin: 0 auto;
+}
+ul {
+  margin: 10px auto;
+}
+li {
+  line-height: 20px;
+}
+button.learnmore {
+  color: rgb(96, 127, 168);
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  border-color: rgb(96, 127, 168);
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px #c5c0c2;
+  transition: all 200ms ease-in-out;
+  font-size: 14px;
+}
+button.learnmore:hover {
+  background-color: rgb(96, 127, 168);
+  cursor: pointer;
+  color: #d3cece;
+}
+button.learnmore a:hover {
+  color: #d3cece;
+}
+
+button.join {
+  color: rgb(96, 127, 168);
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  border-color: rgb(96, 127, 168);
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #c5c0c2;
+  transition: all 200ms ease-in-out;
+  font-size: 18px;
+}
+button.join:hover {
+  background-color: rgb(96, 127, 168);
+  cursor: pointer;
+  color: #d3cece;
+}
+
+button a {
+  text-decoration: none;
+}
+img.periods {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid black;
+  border-radius: 10px;
+  height: 600px;
+}
+footer {
+  text-align: center;
+}
+.triassic {
+  color: #3f8c4f;
+}
+.jurassic {
+  color: #9fbb47;
+}
+.cretaceous {
+  color: #e8e32f;
+}
+footer a {
+  color: rgb(96, 127, 168);
+}
+#colperiods {
+  display: flex;
+}
+.periods {
+  float: left;
+  border-radius: 5px;
+  max-width: 50%;
+  width: auto;
+  margin: 1%;
+}
+img.periods {
+  float: right;
+  border-radius: 5px;
+  max-width: 50%;
+  width: auto;
+  margin: 1%;
+}

@@ -158,6 +158,10 @@ main {
   color: var(--fourth-color);
   font-size: 16px;
 }
+#proejcts h4:hover {
+  color: var(--third-color);
+  cursor: pointer;
+}
 /*Made mobile friendly*/
 @media (width < 576px) {
   .directory {
